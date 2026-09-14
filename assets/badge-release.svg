@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="28" viewBox="0 0 168 28">
+  <rect width="168" height="28" rx="6" fill="#21262d"/>
+  <rect x="78" width="90" height="28" rx="6" fill="#238636"/>
+  <rect x="78" width="12" height="28" fill="#238636"/>
+  <text x="39" y="19" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" fill="#fff">RELEASE</text>
+  <text x="123" y="19" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" fill="#fff">ALPHA</text>
+</svg>

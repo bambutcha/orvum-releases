@@ -1,97 +1,127 @@
 <div align="center">
 
-# ORVUM
+![Orvum](assets/hero.svg)
 
-**Multiplayer voxel sandbox** — explore, build, and play together.
+[![Release](assets/badge-release.svg)](https://github.com/bambutcha/orvum-releases/releases)
+[![Platform](assets/badge-platform.svg)](https://github.com/bambutcha/orvum-releases/releases)
+[![Vulkan](assets/badge-vulkan.svg)](https://github.com/bambutcha/orvum-releases/releases)
 
-[![Latest release](https://img.shields.io/github/v/release/bambutcha/orvum-releases?include_prereleases&style=for-the-badge&label=RELEASE)](https://github.com/bambutcha/orvum-releases/releases)
-[![Downloads](https://img.shields.io/github/downloads/bambutcha/orvum-releases/total?style=for-the-badge&label=DOWNLOADS)](https://github.com/bambutcha/orvum-releases/releases)
-[![Platform](https://img.shields.io/badge/PLATFORM-Linux%20x86__64-1a1a1a?style=for-the-badge)](https://github.com/bambutcha/orvum-releases/releases)
+<br/>
 
-<br />
+[![Download latest](assets/btn-download.svg)](https://github.com/bambutcha/orvum-releases/releases)
 
-**[↓ Download](https://github.com/bambutcha/orvum-releases/releases)** ·
-**[Release notes](https://github.com/bambutcha/orvum-releases/releases)**
+<sub>Always points to the newest build · no README edits needed</sub>
 
 </div>
 
----
+<br/>
 
-## Play
+## Start in 60 seconds
 
-1. Open **[Releases](https://github.com/bambutcha/orvum-releases/releases)** and take the newest **player** build.
-2. Unpack the archive.
-3. Run `./Orvum`.
+```text
+1. Releases → player archive (orvum-linux-…)
+2. Unpack
+3. ./Orvum
+```
 
-| Package | What it is |
-|--------:|------------|
-| Player (`orvum-linux-…`) | Launcher + game client |
-| Server (`orvum-server-…`) | Dedicated / VPS host |
+| You want | Grab |
+|---------:|------|
+| Play | `orvum-linux-amd64-*.tar.gz` |
+| Host a server | `orvum-server-linux-amd64-*.tar.gz` |
 
-Always use the assets attached to a release — this repository is the download channel, not a source tree.
-
-### Requirements
-
-- **OS:** Linux (x86_64)
-- **GPU:** Vulkan-capable driver
-- **Network (optional):** UDP for multiplayer / Open to LAN
+> **Need:** Linux x86_64 · Vulkan GPU driver
 
 ---
 
-## Features
+## Why Orvum
 
-- Flat voxel world — break and place blocks
-- Movement with collision, jump, and world bounds
-- **Multiplayer** — Join by IP, Open to LAN, remote players & nameplates
-- Host **view distance** settings (render / simulation)
-- Long-range world streaming without freezing the simulation tick
-- Horizon fog that hides the render edge
-- Single entry point: `Orvum` (client lives under `lib/`)
+<table>
+<tr>
+<td width="50%">
 
-More systems (inventory, crafting, creatures, combat) are on the roadmap.
+### Together
+Join by IP or open your world on LAN.  
+See friends in-world — names above their heads.
+
+</td>
+<td width="50%">
+
+### Far horizons
+Turn up view distance.  
+The world streams in while you keep moving.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Clean edge
+Fog hides the render limit —  
+even from high above the terrain.
+
+</td>
+<td width="50%">
+
+### One click
+Single `Orvum` launcher.  
+Saves live in your user folder.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Controls (defaults)
+
+| | |
+|--|--|
+| Move | `WASD` |
+| Look | Mouse |
+| Jump | `Space` |
+| Break / place | Mouse buttons |
+| Pause / Settings | `Esc` |
+| Fullscreen | `F11` |
+| Chat | `T` / `Enter` |
+
+---
+
+## Multiplayer
+
+```text
+Host:  Play → Esc → Open to LAN → share IP:port
+Join:  Multiplayer → Join → IP:port
+```
+
+Dedicated box? Use the **server** package from the same release.
 
 ---
 
 ## Saves
 
-| | Path |
-|--|------|
-| Default | `~/.local/share/orvum` |
-| Override | `ORVUM_DATA_DIR` |
-| Portable | `data/` next to the binary |
+```text
+~/.local/share/orvum
+```
+
+| Override | How |
+|----------|-----|
+| Env | `ORVUM_DATA_DIR=/path` |
+| Portable | `data/` next to `Orvum` |
 
 ---
 
-## Multiplayer (quick)
+## What’s next
 
-1. Host: **Play** → Esc → **Open to LAN** → show address if needed  
-2. Friend: **Multiplayer** → **Join** → `IP:port`
-
-Dedicated hosts use the server package from the same release.
-
----
-
-## Versioning
-
-Releases follow SemVer-style tags (`vMAJOR.MINOR.PATCH` + optional `-alpha` / `-beta`).
-
-- Badges and links above always track **whatever is newest** on this repo
-- No need to edit this README when a new build ships — publish a Release, attach binaries, done
-
----
-
-## License & source
-
-Game binaries and assets distributed here are provided for playing and testing.
-
-Source development happens in a separate private repository. Redistribution of builds without permission is not allowed unless a release states otherwise.
+Inventory · crafting · creatures · combat · Windows builds
 
 ---
 
 <div align="center">
 
-**Orvum** · made by [bambutcha](https://github.com/bambutcha)
+**[Download Orvum](https://github.com/bambutcha/orvum-releases/releases)**
 
-[Releases](https://github.com/bambutcha/orvum-releases/releases) · [Issues](https://github.com/bambutcha/orvum-releases/issues)
+<br/>
+
+<sub>© bambutcha · binaries for playtesting · ask before redistributing</sub>
 
 </div>

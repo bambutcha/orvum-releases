@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="28" viewBox="0 0 156 28">
+  <rect width="156" height="28" rx="6" fill="#21262d"/>
+  <rect x="72" width="84" height="28" rx="6" fill="#1f6feb"/>
+  <rect x="72" width="12" height="28" fill="#1f6feb"/>
+  <text x="36" y="19" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" fill="#fff">PLATFORM</text>
+  <text x="114" y="19" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" fill="#fff">Linux</text>
+</svg>
